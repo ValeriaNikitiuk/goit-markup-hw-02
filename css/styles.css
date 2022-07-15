@@ -1,0 +1,222 @@
+:root {
+  --primary-text-color: #212121;
+   --accent-text-color: #2196F3;
+   --secondary-accent-color: #757575;
+   --secondary-text-color: #FFFFFF;
+}
+/* основной цвет текста  #212121 */
+/* вторичный цвет текста : #212121; */
+/* белый color: #FFFFFF  */
+/* акцент  #2196F3; */
+/* цвет фона 1  #FFFFFF; */
+/* цвет фона 2  #2F303A */
+/* цвет фона 3 #E5E5E5 */
+/*  цвет фона 4 #F5F4FA */
+/* цвет фона 5 #2F303A */
+body {
+   font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    color: var(--primary-text-color);
+    }
+    /*_________________________HEADER__________*/
+ 
+ .header {
+    background-color: var(--secondary-text-color);
+ }
+    .header-link {
+          font-family: 'Raleway', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 1.19;
+           letter-spacing: 0.03em;
+          color: var(--accent-text-color);
+        }
+    
+.header-logo {
+     color: #000000;
+    cursor: pointer;
+        }
+
+.list {
+    list-style: none;
+}
+/* Стилизация навигации */
+.header-top:hover,
+.header-top:focus {
+    color: var(--accent-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+color: var(--accent-text-color);
+}
+
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-text-color);
+}
+.header-top {
+   cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.header-mail,
+.header-tel {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+color: var(--secondary-accent-color);
+}
+
+/*_________________________MAIN____________*/
+
+.hero {
+    background-color: #2F303A;
+}
+.person {
+ background-color: rgba(245, 244, 250, 1);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+
+.hero-btn {
+    cursor: pointer;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-text-color);
+    color: var(--secondary-text-color);
+    }
+    
+       
+ .hero-btn:hover,
+ .hero-btn:focus {
+  background-color:var(--accent-text-color);
+  color: var(--secondary-text-color);
+        }
+   .hero-content {
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+   }
+   .text-paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  color: var(--secondary-accent-color);
+   }
+   .picture-title , .person {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+   }
+  
+   .person-name {
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 1.18;
+       letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+   }
+   .person-info {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+     color: var(--secondary-accent-color);
+   }
+   /*_____________________________________FOOTER___________*/
+   .footer-geo {
+    cursor: pointer;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    }
+   
+ 
+   .footer-geo:hover,
+   .footer-geo:focus{
+  color: var(--accent-text-color);
+ }
+   .footer {
+    background-color: #2F303A;
+   }
+
+   .footer-link {
+    cursor: pointer;
+       font-family: 'Raleway', sans-serif;
+       font-style: normal;
+       font-weight: 700;
+       font-size: 26px;
+       line-height: 1.19;
+       letter-spacing: 0.03em;
+       color: var(--accent-text-color);
+   }
+
+   .footer-logo {
+       color: var(--secondary-text-color);
+   }
+   /*_______________________PORTFOLIO MAIN_________*/
+ 
+   .navigator-btn-item {
+      cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+  letter-spacing: 0.03em;
+   background-color: #F5F4FA;
+    color: #212121;
+  }
+
+  .navigator-btn-item:hover,
+  .navigator-btn-item:focus
+   {
+    background-color: var(--accent-text-color);
+      color: var(--secondary-text-color);
+    }
+
+
+
+.img-touch:hover,
+ .img-touch:focus
+ {  
+    color: var(--secondary-text-color);
+}
+
+.img-name {
+font-weight: 700;
+font-size: 18px;
+ line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+
+.img-info {
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+    color: #757575;
+}
