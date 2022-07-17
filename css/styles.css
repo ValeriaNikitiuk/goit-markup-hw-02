@@ -15,24 +15,35 @@
 /* цвет фона 5 #2F303A */
 body {
    font-family: 'Roboto', sans-serif;
-    background-color: #F5F5F5;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+   background-color: #F5F5F5;
     color: var(--primary-text-color);
     }
     /*_________________________HEADER__________*/
  
+ 
+
+ .current  {
+    color: var(--accent-text-color);
+ }
  .header {
     background-color: var(--secondary-text-color);
- }
+
+    color: var(--accent-text-color);
+}
     .header-link {
           font-family: 'Raleway', sans-serif;
           font-style: normal;
           font-weight: 700;
           font-size: 26px;
           line-height: 1.19;
-           letter-spacing: 0.03em;
+          text-decoration: none;
           color: var(--accent-text-color);
         }
-    
+        .current {
+            color: var(--accent-text-color);
+        }
 .header-logo {
      color: #000000;
     cursor: pointer;
@@ -42,10 +53,13 @@ body {
     list-style: none;
 }
 /* Стилизация навигации */
-.header-top:hover,
-.header-top:focus {
+.header-link-nav:hover,
+.header-link-nav:focus
+{
     color: var(--accent-text-color);
 }
+
+
 
 .header-mail:hover,
 .header-mail:focus {
@@ -56,22 +70,28 @@ color: var(--accent-text-color);
 .header-tel:focus {
     color: var(--accent-text-color);
 }
-.header-top {
+
+.person-discription {
+font-size: 36px;
+    line-height: 1.16;
+    color: var(--primary-text-color);
+}
+.header-link-nav  {
    cursor: pointer;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 color: var(--primary-text-color);
+text-decoration: none;
 }
 
 .header-mail,
 .header-tel {
     cursor: pointer;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+   text-decoration: none;
 color: var(--secondary-accent-color);
 }
 
@@ -110,25 +130,21 @@ color: var(--secondary-accent-color);
   background-color:var(--accent-text-color);
   color: var(--secondary-text-color);
         }
-   .hero-content {
+   
+        .hero-content {
   font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--primary-text-color);
    }
    .text-paragraph {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
   color: var(--secondary-accent-color);
    }
    .picture-title , .person {
     font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
-        letter-spacing: 0.03em;
         color: var(--primary-text-color);
    }
   
@@ -136,23 +152,26 @@ color: var(--secondary-accent-color);
        font-weight: 500;
        font-size: 16px;
        line-height: 1.18;
-       letter-spacing: 0.03em;
     color: var(--primary-text-color);
    }
    .person-info {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.18;
-        letter-spacing: 0.03em;
+        
      color: var(--secondary-accent-color);
    }
    /*_____________________________________FOOTER___________*/
+   
+   .footer-item {
+    font-style: normal;
+    text-decoration: none;
+   }
+   
    .footer-geo {
     cursor: pointer;
   font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    text-decoration: none;
     color: var(--secondary-text-color);
     }
    
@@ -162,7 +181,9 @@ color: var(--secondary-accent-color);
   color: var(--accent-text-color);
  }
    .footer {
+   font-style: normal;
     background-color: #2F303A;
+  
    }
 
    .footer-link {
@@ -172,7 +193,7 @@ color: var(--secondary-accent-color);
        font-weight: 700;
        font-size: 26px;
        line-height: 1.19;
-       letter-spacing: 0.03em;
+       text-decoration: none;
        color: var(--accent-text-color);
    }
 
@@ -186,7 +207,6 @@ color: var(--secondary-accent-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-  letter-spacing: 0.03em;
    background-color: #F5F4FA;
     color: #212121;
   }
@@ -217,6 +237,5 @@ color: var(--primary-text-color);
 .img-info {
 font-size: 16px;
 line-height: 1.87;
-letter-spacing: 0.03em;
     color: #757575;
 }
