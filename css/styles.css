@@ -24,9 +24,7 @@ body {
  
  
 
- .current  {
-    color: var(--accent-text-color);
- }
+ 
  .header {
     background-color: var(--secondary-text-color);
 
@@ -53,8 +51,8 @@ body {
     list-style: none;
 }
 /* Стилизация навигации */
-.header-link-nav:hover,
-.header-link-nav:focus
+.current-nav:hover,
+.current-nav:focus
 {
     color: var(--accent-text-color);
 }
